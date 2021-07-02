@@ -1,21 +1,23 @@
 #!/usr/bin/env python3
 
+# use min() to get the minimum dictionary value
 def q1():
     d = {'coyote': 3,
          'elephant': 7,
          'dog': 4,
          'chimpanzee': 2,
          'deer': 8}
-    print(min(d.values()))
+    print(min(d.values())) # output 2
 # q1()
 
+# use list comp to count words in list that dont include "a"
 def q2():
     words = ['wound',
              'below',
              'hungry',
              'bronze',
              'subtle']
-    print(len([w for w in words if 'a' not in w]))
+    print(len([w for w in words if 'a' not in w])) # output 5
 # q2()
 
 def q3():
