@@ -1,0 +1,48 @@
+
+q1() 2
+use min() to get the minimum dictionary value
+
+q2() 5
+use list comp to count words in list that dont include "a"
+
+q3() 8
+use max() to get the maximum dictionary value
+
+q4() 4
+use list comp to count words in list that include "a"
+
+q5() "goat"
+use min() to get the minimum dictionary key
+
+q6() 5
+get the length of a dictionary
+
+q7() 2
+use list comp to count words in list that are < 6 digits
+
+q8() 3
+use list comp to count how many numbers in a list are < 10
+
+q9() 3
+use list comp to count how many numbers in a list are not divisible by 2
+
+q10() 4
+use list comp to count how many numbers in a list are < 10
+
+q11() 9
+use max() to get the maximum dictionary value
+
+q12() [15, 13, 6, 19, 3, 8]
+print list comp to minus each number in a list by 1
+
+q13() 3
+use list comp to count words in list that are > 6 digits
+
+q14() [0, 0, 1, 0, 1, 0, 1]
+use list comp that reads words from a list, words containing "e" = 1 and words without letter "e" = 0
+
+q15() [16, 0, 3, 13, 18, 5, 17]
+print list comp to minus each number in a list by 1
+
+q16() 2
+use list comp to count how many numbers in a list are not divisible by 2

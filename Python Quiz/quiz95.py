@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+
+def foo(l):
+    q = []
+    for e in l:
+        try:
+            q.append(e % 2)
+        except:
+            q.append('A')
+        else:
+            q.append('B')
+
+    return q
+
+print(foo([5, 6, 'X', 2, 'X']))
