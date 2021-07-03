@@ -1,65 +1,4 @@
 
-
-# 0 1 1
-# 0 1 1 2
-# 0 1 1 2 3
-# 0 1 1 2 3 5
-# 0 1 1 2 3 5 8
-
-# n = 5
-# prev = 0
-# curr = 1
-# print(0)
-# i = 0
-# while i < n - 1:
-#    print(curr)
-#    old_curr = curr
-#    curr = prev + curr
-#    prev = old_curr
-#    i += 1
-# print('\n')
-
-# n = 1
-# prev = 0
-# curr = 1
-# print(0)
-# i = 0
-# while i < n - 1:
-#    if n > curr:
-#       print(curr)
-#    old_curr = curr
-#    curr = prev + curr
-#    prev = old_curr
-#    i += 1
-# print('\n')
-
-# prev = 0
-# curr = 1
-# for i in range(0, 100):
-#    print(curr)
-#    old_curr = curr
-#    curr = prev + curr
-#    prev = old_curr
-# print('\n')
-
-#                        Group  = (000)
-# Hundred        2     0 Group  = (100)
-# Thousand       3     1 Group  = (1,000)
-# Hun-Thousand   5     1 Group  = (100,000)
-# Million        6     2 Groups = (1,000,000)
-# Billion        9     3 Groups = (1,000,000,000)
-# Trillion      12     4 Groups
-# Quadrillion   15     5 Groups 
-# Quintillion   18     6 Groups = 10^18
-# Sextillion    21     7 Groups
-# Septillion    24     8 Groups
-# Octillion     27     9 Groups
-# Nonillion     30    10 Groups
-# Decillion     33    11 Gruops = 10^33
-# Undecillion   36    12 Groups
-# Googol       100
-# Centrillion  303   101 Groups (Largest illion)
-
 Googol = 10**100
 fib_num_481 = 14913169640232740127827512057302148063648650711209401966150219926546779697987984279570098768737999681
 prev = 0
@@ -288,45 +227,45 @@ for i in range(0, 1760): # 1470
    elif curr >= 10**306 and curr < 10**309:
       print('\u001b[34mUncentillion\u001b[37m') # 101
    elif curr >= 10**309 and curr < 10**312:
-      print('Duocentillion') # 102
+      print('\u001b[33mDuocentillion\u001b[37m') # 102
    elif curr >= 10**312 and curr < 10**315:
-      print('Trecentillion') # 103
+      print('\u001b[34mTrecentillion\u001b[37m') # 103
    elif curr >= 10**315 and curr < 10**318:
-      print('Quattuorcentillion') # 104
+      print('\u001b[35mQuattuorcentillion\u001b[37m') # 104
    elif curr >= 10**318 and curr < 10**321:
-      print('Quincentillion') # 105
+      print('\u001b[33mQuincentillion\u001b[37m') # 105
    elif curr >= 10**321 and curr < 10**324:
-      print('Sexcentillion') # 106
+      print('\u001b[34mSexcentillion\u001b[37m') # 106
    elif curr >= 10**324 and curr < 10**327:
-      print('Septencentillion') # 107
+      print('\u001b[35mSeptencentillion\u001b[37m') # 107
    elif curr >= 10**327 and curr < 10**330:
-      print('Octocentillion') # 108
+      print('\u001b[33mOctocentillion\u001b[37m') # 108
    elif curr >= 10**330 and curr < 10**333:
-      print('Novemcentillion') # 109
+      print('\u001b[34mNovemcentillion\u001b[37m') # 109
    elif curr >= 10**333 and curr < 10**336:
-      print('Decicentillion') # 110
+      print('\u001b[35mDecicentillion\u001b[37m') # 110
    elif curr >= 10**336 and curr < 10**339:
-      print('Undecicentillion') # 111
+      print('\u001b[33mUndecicentillion\u001b[37m') # 111
    elif curr >= 10**339 and curr < 10**342:
-      print('Duodecicentillion') # 112
+      print('\u001b[34mDuodecicentillion\u001b[37m') # 112
    elif curr >= 10**342 and curr < 10**345:
-      print('Tredecicentillion') # 113
+      print('\u001b[35mTredecicentillion\u001b[37m') # 113
    elif curr >= 10**345 and curr < 10**348:
-      print('Quattourdecicentillion') # 114
+      print('\u001b[33mQuattourdecicentillion\u001b[37m') # 114
    elif curr >= 10**348 and curr < 10**351:
-      print('Quindecicentillion') # 115
+      print('\u001b[34mQuindecicentillion\u001b[37m') # 115
    elif curr >= 10**351 and curr < 10**354:
-      print('Sexdecicentillion') # 116
+      print('\u001b[35mSexdecicentillion\u001b[37m') # 116
    elif curr >= 10**354 and curr < 10**357:
-      print('Septendecicentillion') # 117
+      print('\u001b[33mSeptendecicentillion\u001b[37m') # 117
    elif curr >= 10**357 and curr < 10**360:
-      print('Octodecicentillion') # 118
+      print('\u001b[34mOctodecicentillion\u001b[37m') # 118
    elif curr >= 10**360 and curr < 10**363:
-      print('Novemdecicentillion') # 119
+      print('\u001b[35mNovemdecicentillion\u001b[37m') # 119
    elif curr >= 10**363 and curr < 10**366:
-      print('120-illion\u001b[37m') # 120
+      print('\u001b[33;1m120-illion\u001b[37m') # 120
    else:
-      print('Unknown')
+      print('\u001b[31;1mUnknown\u001b[37m')
    print('{:,}'.format(curr))
    old_curr = curr
    curr = prev + curr
@@ -732,3 +671,65 @@ print('\n')
 # Millillion # 1000-illion 10**3003
 
 # Dumillillion # 2000-illion 10**6003
+
+
+
+# 0 1 1
+# 0 1 1 2
+# 0 1 1 2 3
+# 0 1 1 2 3 5
+# 0 1 1 2 3 5 8
+
+# n = 5
+# prev = 0
+# curr = 1
+# print(0)
+# i = 0
+# while i < n - 1:
+#    print(curr)
+#    old_curr = curr
+#    curr = prev + curr
+#    prev = old_curr
+#    i += 1
+# print('\n')
+
+# n = 1
+# prev = 0
+# curr = 1
+# print(0)
+# i = 0
+# while i < n - 1:
+#    if n > curr:
+#       print(curr)
+#    old_curr = curr
+#    curr = prev + curr
+#    prev = old_curr
+#    i += 1
+# print('\n')
+
+# prev = 0
+# curr = 1
+# for i in range(0, 100):
+#    print(curr)
+#    old_curr = curr
+#    curr = prev + curr
+#    prev = old_curr
+# print('\n')
+
+#                        Group  = (000)
+# Hundred        2     0 Group  = (100)
+# Thousand       3     1 Group  = (1,000)
+# Hun-Thousand   5     1 Group  = (100,000)
+# Million        6     2 Groups = (1,000,000)
+# Billion        9     3 Groups = (1,000,000,000)
+# Trillion      12     4 Groups
+# Quadrillion   15     5 Groups
+# Quintillion   18     6 Groups = 10^18
+# Sextillion    21     7 Groups
+# Septillion    24     8 Groups
+# Octillion     27     9 Groups
+# Nonillion     30    10 Groups
+# Decillion     33    11 Gruops = 10^33
+# Undecillion   36    12 Groups
+# Googol       100
+# Centrillion  303   101 Groups (Largest illion)
