@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 import sys
 
+
 def diamond(line):
-    '''Makes a diamond and determines
-    the size from each number in file'''
+    """
+    Makes a diamond and determines
+    the size from each number in file.
+    """
     n = ' *'
     m = ' '
     count1 = 0
@@ -24,12 +27,14 @@ def diamond(line):
         j -= 1
     print('', end='')
 
+
 def main():
     for line in sys.stdin:
         line = line.rstrip()
         line = int(line)
 
         diamond(line)
+
 
 if __name__ == "__main__":
     main()

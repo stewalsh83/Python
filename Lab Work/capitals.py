@@ -1,7 +1,9 @@
+#!/usr/bin/env python3
 import sys
 
+
 def main():
-    '''Reads text file and capitalizes the first and last letters'''
+    """Reads text file and capitalizes the first and last letters."""
     for line in sys.stdin:
         lines = line.strip()
 
@@ -12,6 +14,7 @@ def main():
         caps = first + mid + last
         if first != last:
             print(caps)
+
 
 if __name__ == "__main__":
     main()

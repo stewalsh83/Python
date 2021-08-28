@@ -1,7 +1,13 @@
 #!/usr/bin/env python3
 import sys
 
+
 def main():
+    """
+    +   Prints measurements of a sphere to a table
+    +   from radius. Also uses data to determine
+    +   increment and range of table.
+    """
     for line in sys.stdin:
         numbers = line.strip().split()
         start_r = float(numbers[0])
@@ -22,13 +28,12 @@ def main():
         radius = start_r
 
         while radius <= end_r:
-            area = 4 * pi * radius**2
-            volume = 4/3 * pi * radius**3
-            print('{:>4.1f} {:>18.2f} {:>14.2f}'.format(radius, area, volume))
+            area = 4 * pi * radius ** 2
+            volume = 4 / 3 * pi * radius ** 3
+            print('{:>4.1f} {:>18.2f} {:>14.2f}'
+                  .format(radius, area, volume))
             radius += inc_r
+
 
 if __name__ == '__main__':
     main()
-
-# # Area = 4 pi r^2
-# # Vol  = 4/3 pi r^3
