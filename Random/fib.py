@@ -23,7 +23,7 @@ for i in range(0, 1760): # 1470
    elif curr >= 10**9 and curr < 10**12:
       print('\u001b[34;1mBillion\u001b[37m') # 2
    elif curr >= 10**12 and curr < 10**15:
-      print('\u001b[31;1mTillion\u001b[37m') # 3
+      print('\u001b[31;1mTrillion\u001b[37m') # 3
    elif curr >= 10**15 and curr < 10**18:
       print('\u001b[36mQuadrillion\u001b[37m') # 4
    elif curr >= 10**18 and curr < 10**21:
