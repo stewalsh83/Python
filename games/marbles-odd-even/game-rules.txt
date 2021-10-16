@@ -1,0 +1,6 @@
+	Each player starts off with 5 marbles each.
+	A wager will be set at the beginning of each
+	round. The first player must then guess what
+	the other player has. an odd or even number
+	If chosen correctly the player will win the
+	wager. Get all 10 marbles to win the game.
