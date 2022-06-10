@@ -10,10 +10,10 @@ def main():
     tokens = line
     a = []
     for tok in tokens:
-        a.append(int(tok))
-        print(a)
-        print(calc_average(a))
-        print('\n')
+        a.append(float(tok))
+        #print(a)
+        print("{:.2f}".format(calc_average(a)))
+        #print('\n')
 
 if __name__ == "__main__":
     main()
