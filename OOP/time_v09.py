@@ -12,9 +12,12 @@ class Time(object):
         return self.time_to_seconds() > other.time_to_seconds()
 
     def plus(self, other):
-        return seconds_to_time(self.time_to_seconds() + other.time_to_seconds)
+        return seconds_to_time(self.time_to_seconds() + other.time_to_seconds())
 
-    # special method
+    def increment(self, other):
+        z = self.plus(other)
+        self.hour, self.minute, self.second = z.hour, z.minute, z.second
+
     def __str__(self):
         return "The time is {:02d}:{:02d}:{:02d}".format(self.hour, self.minute, self.second)
 
